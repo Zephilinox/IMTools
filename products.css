@@ -1,0 +1,67 @@
+#content .page-pic
+{
+    height: 100px;
+}
+
+#content .page-pic img
+{
+    min-width: 350px;
+    max-width: 700px;
+    
+    min-height: 50px;
+    max-height: 100px;
+}
+
+#products
+{
+	text-align: center;
+}
+
+#products ul
+{
+	display: inline-block;
+	list-style-type: none;
+	font-size: 1em;
+}
+
+#products li
+{
+	display: inline-block;
+	width: 320px;
+	height: 480px;
+	border: 2px solid #cccccc;
+	margin: 8px auto 0px auto;
+}
+
+#products li:nth-child(even)
+{
+	float: left;
+	margin-left: 96px;
+}
+
+#products li:nth-child(odd)
+{
+	float: right;
+	margin-right: 96px;
+}
+
+#products img
+{
+	height: 160px;
+	max-width: 260px;
+}
+
+#products li h1
+{
+	max-width: 80%;
+	border-top: 2px solid #cccccc;
+	margin: 4px auto 4px auto;
+	font-size: 1.5em;
+	word-wrap: break-word;
+}
+
+#products p
+{
+	font-size: 1em;
+	word-wrap: break-word;
+}
